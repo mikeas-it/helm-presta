@@ -13,7 +13,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.1.7
-    created: "2024-07-28T20:48:53.249614344-03:00"
+    created: "2024-07-31T16:36:40.575250874-03:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -33,7 +33,7 @@ entries:
     description: PrestaShop is a powerful open source eCommerce platform used by over
       250,000 online storefronts worldwide. It is easily customizable, responsive,
       and includes powerful tools to drive online sales.
-    digest: c39cbc5a6a6d49a6dbb3046aca20f751c77fe54247bd6acfbae43ae2c918118f
+    digest: efa4e6b79e01e56163249656b2c88be562915ebef325986471fec4f4d4702972
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/prestashop/img/prestashop-stack-220x234.png
     keywords:
@@ -49,6 +49,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/prestashop
     urls:
-    - prestashop-22.0.0.tgz
+    - https://mikeas-it.github.io/helm-presta/prestashop-22.0.0.tgz
     version: 22.0.0
-generated: "2024-07-28T20:48:53.241335286-03:00"
+generated: "2024-07-31T16:36:40.566787083-03:00"
